@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+#sec {
+  width: 7.5rem;
+  height: 30rem;
+  margin: 0rem auto;
+  font-size: 0.28rem;
+  position: relative;
+}
+#sec #hea {
+  height: 2rem;
+  width: 7.5rem;
+  display: flex;
+  background: #fff;
+  position: fixed;
+  left: 0rem;
+  top: 0rem;
+  flex-direction: column;
+  z-index: 10;
+}
+#sec #hea #header1 {
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#sec #hea #header1 .header-left {
+  font-size: 0.28rem;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  color: #585c64;
+}
+#sec #hea #header1 .header-center {
+  width: 5.5rem;
+  height: 0.7rem;
+  border: 1px solid #98989f;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sec #hea #header1 .header-center .inp {
+  width: 5.1rem;
+  height: 0.6rem;
+  border: none;
+  font-size: 0.28rem;
+  outline: none;
+}
+#sec #hea #header1 .header-right {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  font-size: 0.4rem;
+  line-height: 1rem;
+  text-align: center;
+  color: #585c64;
+}
+#sec #hea .header2 {
+  width: 7.5rem;
+  height: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 1rem;
+  color: #585c64;
+}
+#sec #hea .header2 li:nth-child(1) {
+  border-bottom: 1px solid #d34ba8;
+  color: #d34ba8;
+}
+#sec #hea .header2 .iconfont {
+  font-size: 0.4rem;
+}
+#sec #body1 {
+  margin-top: 2rem;
+  background: #fdf2ff;
+}
+#sec #body1 #bodyer {
+  height: 3.5rem;
+  background: url(../img/b1.jpg) no-repeat center center;
+  background-size: 7.5rem 3.5rem;
+}
+#sec #body1 .bodyer2 {
+  background: #fdf2ff;
+  height: 1.8rem;
+  display: flex;
+}
+#sec #body1 .bodyer2 li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sec #body1 .bodyer2 li i {
+  width: 1rem;
+  height: 1rem;
+  border: 4px solid pink;
+  border-radius: 50%;
+}
+#sec #body1 .bodyer2 li:nth-child(1) i {
+  background: url(../img/nv.png) no-repeat center center;
+  background-size: cover;
+}
+#sec #body1 .bodyer2 li:nth-child(2) i {
+  background: url(../img/n.png) no-repeat center center;
+  background-size: cover;
+}
+#sec #body1 .bodyer2 li:nth-child(3) i {
+  background: url(../img/b3.png) no-repeat center center;
+  background-size: cover;
+}
+#sec #body1 .bodyer2 li:nth-child(4) i {
+  background: url(../img/ny.png) no-repeat center center;
+  background-size: cover;
+}
+#sec #body1 .bodyer2 li:nth-child(5) i {
+  background: url(../img/x.png) no-repeat center center;
+  background-size: cover;
+}
+#sec .bodyer3 {
+  height: 1.8rem;
+  display: flex;
+}
+#sec .bodyer3 li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sec .bodyer3 li i {
+  width: 1rem;
+  height: 1rem;
+  border: 4px solid pink;
+  border-radius: 50%;
+  background: url(../img/xx.png) no-repeat center center;
+  background-size: cover;
+}
+#sec .ccv {
+  height: 1rem;
+  background: url(../img/15758745672412.jpg) no-repeat;
+  background-size: 7.5rem 1rem;
+}
+#sec .ccb {
+  height: 1.8rem;
+  background: url(../img/15760542298235.jpg) no-repeat;
+  background-size: 7.5rem 1.8rem;
+}
+#sec .sction {
+  height: 2.57rem;
+  background: floralwhite;
+  display: flex;
+}
+#sec .sction .s1 {
+  width: 50%;
+  background: url(../img/s1.jpg) no-repeat;
+  background-size: 3.75rem 2.57rem;
+  position: relative;
+}
+#sec .sction .s1 .s1_a {
+  position: absolute;
+  width: 1.4rem;
+  height: 2rem;
+  background: #fff;
+  left: 2.2rem;
+  top: 0.2rem;
+}
+#sec .sction .s1 .s1_a i {
+  display: block;
+  height: 1.6rem;
+  background: url(../img/s1-a.jpg) no-repeat top center;
+  background-size: 1.4rem 1.6rem;
+}
+#sec .sction .s1 .s1_a .spa {
+  font-size: 0.2rem;
+  color: #fff;
+  width: 0.5rem;
+  height: 0.2rem;
+  background: #de3d96;
+  border-radius: 0.1rem;
+}
+#sec .sction .s1 .s1_a .sp {
+  font-size: 0.24rem;
+  color: #de3d96;
+  margin-left: 0.1rem;
+}
+#sec .sction .s2 {
+  width: 50%;
+  background: url(../img/s2.jpg) no-repeat;
+  background-size: 3.75rem 2.57rem;
+  position: relative;
+}
+#sec .sction .s2 .s2_b {
+  position: absolute;
+  width: 1.4rem;
+  height: 2rem;
+  background: #fff;
+  left: 2.2rem;
+  top: 0.2rem;
+  position: relative;
+}
+#sec .sction .s2 .s2_b i {
+  display: block;
+  height: 1.6rem;
+  background: url(../img/s2-a.jpg) no-repeat top center;
+  background-size: 1.4rem 1.6rem;
+}
+#sec .sction .s2 .s2_b .ss {
+  display: block;
+  font-size: 0.2rem;
+  color: #fff;
+  width: 1rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-align: center;
+  background: #de3d96;
+}
+#sec .sction .s2 .s2_b .bb {
+  line-height: 0.4rem;
+  text-align: center;
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  position: absolute;
+  left: 0.88rem;
+  top: 1.6rem;
+  font-size: 0.24rem;
+  background: tomato;
+  color: #fff;
+  margin-left: 0.1rem;
+  float: right;
+}
+#sec .tt {
+  height: 1rem;
+  background: url(../img/tt.jpg) no-repeat;
+  background-size: 7.5rem 1rem;
+}
+#sec .ssv {
+  height: 2.5rem;
+  background: url(../img/ssv.jpg) no-repeat;
+  background-size: 7.5rem 2.5rem;
+  position: relative;
+}
+#sec .ssv p {
+  color: #ffffff;
+  font-size: 0.24rem;
+  position: absolute;
+  top: 1.3rem;
+  left: 1.4rem;
+}
+#sec .ssv .ssv1 {
+  position: absolute;
+  width: 1.5rem;
+  height: 2rem;
+  top: 0.25rem;
+  right: 2rem;
+  border-radius: 0.05rem;
+  background: #fff;
+}
+#sec .ssv .ssv1 i {
+  display: block;
+  width: 1.5rem;
+  height: 1.6rem;
+  background: url(../img/e6.jpg) no-repeat;
+  background-size: 1.5rem 1.6rem;
+}
+#sec .ssv .ssv1 span {
+  display: block;
+  font-size: 0.24rem;
+  text-align: center;
+  color: #d34ba8;
+}
+#sec .ssv .ssv2 {
+  position: absolute;
+  width: 1.5rem;
+  height: 2rem;
+  background: #fff;
+  top: 0.25rem;
+  right: 0.4rem;
+  border-radius: 0.05rem;
+}
+#sec .ssv .ssv2 i {
+  display: block;
+  width: 1.5rem;
+  height: 1.6rem;
+  background: url(../img/65fe.jpg) no-repeat;
+  background-size: 1.5rem 1.6rem;
+}
+#sec .ssv .ssv2 span {
+  display: block;
+  font-size: 0.24rem;
+  text-align: center;
+  color: #d34ba8;
+}
+#sec .ul {
+  height: 7.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-evenly;
+}
+#sec .ul li {
+  width: 1.8rem;
+  height: 2.44rem;
+  border-radius: 0.1rem;
+  background: #ce0181;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#sec .ul li i {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: url(../img/22ef.jpg) no-repeat;
+  background-size: 1.5rem 1.5rem;
+}
+#sec .ul li p {
+  color: #ffffff;
+  font-weight: 540;
+}
+#sec .ul li span {
+  font-size: 0.2rem;
+  color: #ffffff;
+}
+#sec #fooder {
+  height: 1rem;
+  width: 7.5rem;
+  background: #fff;
+  position: fixed;
+  left: 0rem;
+  bottom: 0;
+  justify-content: center;
+  z-index: 10;
+  display: flex;
+}
+#sec #fooder a {
+  height: 1rem;
+  width: 20%;
+}
+#sec #fooder .a1 {
+  background: url(../img/a3c.png) no-repeat center;
+  background-size: 1.5rem 1rem;
+}
+#sec #fooder .a2 {
+  background: url(../img/9d8.png) no-repeat center;
+  background-size: 1.5rem 1rem;
+}
+#sec #fooder .a3 {
+  background: url(../img/1e70.gif) no-repeat center;
+  background-size: 1.5rem 1rem;
+}
+#sec #fooder .a4 {
+  background: url(../img/f2fe.png) no-repeat center;
+  background-size: 1.5rem 1rem;
+}
+#sec #fooder .a5 {
+  background: url(../img/ce44.png) no-repeat center;
+  background-size: 1.5rem 1rem;
+}
